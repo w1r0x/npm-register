@@ -14,10 +14,11 @@
     "koa": "1.2.0",
     "koa-compress": "1.0.9",
     "koa-route": "2.4.2",
+    "koa-router": "5.4.0",
+    "koa-static": "2.0.0",
     "metric-log": "1.0.1",
-    "newrelic": "1.28.2",
     "node-uuid": "1.4.7",
-    "rollbar": "0.6.2"
+    "opbeat": "3.8.0"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "0.3.3",
@@ -36,7 +37,7 @@
   "license": "ISC",
   "repository": "dickeyxxx/elephant",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server",
     "test": "nyc mocha && standard"
   }
 }
