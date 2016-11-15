@@ -17,7 +17,8 @@ module.exports = {
   fs: {directory: env.NPM_REGISTER_FS_DIRECTORY || 'tmp'},
   s3: {
     bucket: env.AWS_S3_BUCKET,
-    region: env.AWS_DEFAULT_REGION
+    region: env.AWS_DEFAULT_REGION,
+    endpoint: env.AWS_ENDPOINT
   }
 }
 

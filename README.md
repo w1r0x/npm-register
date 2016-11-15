@@ -41,7 +41,7 @@ See below for how to enable authorization and `npm publish`.
 S3 Storage
 ----------
 
-Use S3 for storage by setting `NPM_REGISTER_STORAGE=s3`. Then set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_S3_BUCKET` to the proper values.
+Use S3 for storage by setting `NPM_REGISTER_STORAGE=s3`. Then set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_S3_BUCKET` and optional `AWS_ENDPOINT` to the proper values.
 
 Local Filesystem Storage
 ------------------------
